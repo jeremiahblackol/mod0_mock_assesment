@@ -1,0 +1,5 @@
+class = dog
+  instances: maltese, german shepherd, pug-terrier mix
+
+class = plant
+  instances: bamboo, snake plant, aloe
