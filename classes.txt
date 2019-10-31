@@ -9,4 +9,17 @@ methods:
   addPlantFood = changes the dimensions of the rootDepth, and plantHeight attributes
   changePot = affects root depth attribute
   addSunlight = determines plantIsAlive attribute
-  trimPlant = changes the leafShape attribute
+  trimPlant = subtracts the leafShape attribute
+
+class = dog
+attributes:
+  dogWeight (float)
+  collar (string)
+  earShape (string)
+  houseBroken (boolean)
+  favoriteTreat (string)
+methods:
+  feedDog = adds to dogWeight attribute
+  addDogTag = adds dog tag to collar string
+  kennelTrain = if dog houseBroken = False, method changes houseBroken = True
+  teachDogTrick = adds favoriteTreat to dog
