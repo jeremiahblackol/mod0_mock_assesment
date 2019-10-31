@@ -30,4 +30,3 @@ Doing Laundry
     2.3.2 Place clothes in empty dryer
     2.3.3 Leave clothes on top of full dryer
   2.4 Place dirty clothes in washing machine
-  
