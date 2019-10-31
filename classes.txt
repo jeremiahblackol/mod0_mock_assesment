@@ -1,0 +1,12 @@
+class = plant
+attributes:
+  plantColor (string)
+  leafShape (string)
+  plantHeight (integer)
+  plantIsAlive (boolean)
+  rootDepth (integer)
+methods:
+  addPlantFood = changes the dimensions of the rootDepth, and plantHeight attributes
+  changePot = affects root depth attribute
+  addSunlight = determines plantIsAlive attribute
+  trimPlant = changes the leafShape attribute
