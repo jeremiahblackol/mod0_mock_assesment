@@ -1,15 +1,15 @@
 class = plant
 attributes:
   plantColor (string)
-  leafShape (string)
+  currentLeafLength (integer)
   plantHeight (integer)
   plantIsAlive (boolean)
   rootDepth (integer)
 methods:
-  addPlantFood = changes the dimensions of the rootDepth, and plantHeight attributes
-  changePot = affects root depth attribute
-  addSunlight = determines plantIsAlive attribute
-  trimPlant = subtracts the leafShape attribute
+  addPlantFood = adds addPlantFood adds to rootDepth, and plantHeight attributes
+  changePot = adds changePot adds to root depth attribute
+  addSunlight = adds addSunlight makes plantIsAlive attribute true
+  trimPlant = subtracts trimPlant from the currentLeafLength
 
 class = dog
 attributes:
@@ -19,7 +19,7 @@ attributes:
   houseBroken (boolean)
   favoriteTreat (string)
 methods:
-  feedDog = adds to dogWeight attribute
-  addDogTag = adds dog tag to collar string
-  kennelTrain = if dog houseBroken = False, method changes houseBroken = True
-  teachDogTrick = adds favoriteTreat to dog
+  feedDog = adds feedDog to dog, increases dogWeight attribute
+  addDogTag = adds addDogTag to collar string, addDogTag adds dog tag to collar
+  kennelTrain = if dog houseBroken = False, add kennelTrain changes houseBroken = True
+  learnDogTrick = dog adds learnDogTrick adds favoriteTreat to dog
