@@ -30,3 +30,15 @@ Doing Laundry
     2.3.2 Place clothes in empty dryer
     2.3.3 Leave clothes on top of full dryer
   2.4 Place dirty clothes in washing machine
+  2.5 Add soap
+    2.5.1 Grab soap scoop
+    2.5.2 Scoop soap scoop into soap
+      2.5.2.1 Fill halfway
+    2.5.3 Add soap to washing machine
+  2.6 Close washing machine
+    2.6.1 Grab washing machine door handle
+    2.6.2 Push to Close
+  2.7 Set washing machine to normal
+    2.7.1 Use right or left index finger to press normal
+  2.8 Start washing machine
+    2.8.1 Use right or left index finger to press start
