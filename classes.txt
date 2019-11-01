@@ -9,7 +9,7 @@ methods:
   addPlantFood = adds addPlantFood adds to rootDepth, and plantHeight attributes
   changePot = adds changePot adds to root depth attribute
   addSunlight = adds addSunlight makes plantIsAlive attribute true
-  trimPlant = subtracts trimPlant from the currentLeafLength
+  trimPlant = subtracts trimPlant from the currentLeafLength, reduces currentLeafLength
 
 class = dog
 attributes:
@@ -21,5 +21,5 @@ attributes:
 methods:
   feedDog = adds feedDog to dog, increases dogWeight attribute
   addDogTag = adds addDogTag to collar string, addDogTag adds dog tag to collar
-  kennelTrain = if dog houseBroken = False, add kennelTrain changes houseBroken = True
+  kennelTrain = add if dog houseBroken = False, kennelTrain changes houseBroken = True
   learnDogTrick = dog adds learnDogTrick adds favoriteTreat to dog
